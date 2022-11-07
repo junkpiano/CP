@@ -2,6 +2,8 @@
 
 Look at this awesome code snippets! -> https://gist.github.com/gghatano/1aab64239be88181d0fc91069c6fe9b4
 
+My Templates -> https://gist.github.com/junkpiano/49f3f34e1db1f6a1a5ca11b10c0945a6
+
 ## Installation
 
 - Install VSCode
