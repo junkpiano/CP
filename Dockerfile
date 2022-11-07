@@ -19,8 +19,8 @@ RUN echo 'alias atest="g++ -Wfatal-errors --std=c++17 -I /tmp/ac-library main.cp
 RUN mkdir -p /root/.cftools/template
 RUN echo 'alias cftest="g++ -Wfatal-errors --std=c++17 -I /tmp/ac-library a.cpp ; cf test"' >> /root/.bashrc
 
-RUN echo 'alias agen="atcoder-tools gen --without-login --template /root/.atcodertools/template/template.cpp"' >> /root/.bashrc
-RUN echo 'alias agenlogin="atcoder-tools gen --template /root/.atcodertools/template/template.cpp"' >> /root/.bashrc
+RUN echo 'alias agen="atcoder-tools gen --workspace /workspaces/cp/atcoder --without-login --template /root/.atcodertools/template/template.cpp"' >> /root/.bashrc
+RUN echo 'alias agenlogin="atcoder-tools gen --workspace /workspaces/cp/atcoder --template /root/.atcodertools/template/template.cpp"' >> /root/.bashrc
 RUN echo 'alias asub="atcoder-tools submit -u"' >> /root/.bashrc
 
 RUN curl -s -S https://gist.githubusercontent.com/gghatano/1aab64239be88181d0fc91069c6fe9b4/raw/625a707e7b0c38777e5b8e9984871481243a8597/template.cpp >> /root/.atcodertools/template/template.cpp
