@@ -7,8 +7,12 @@ My Templates -> https://gist.github.com/junkpiano/49f3f34e1db1f6a1a5ca11b10c0945
 ## Installation
 
 1. Install VSCode.
-2. If you haven't already, install the "dev containers" extension.
-3. Open the folder in container by selecting the "Open in container" option from the bottom-left icon.
+2. Install Competitive Programming Helper(vscode extension) https://agrawal-d.com/cph/
+3. If you haven't already, install the "dev containers" extension.
+4. Install Compatitive Companion(Browser Extension)
+   * chrome: https://chrome.google.com/webstore/detail/competitive-companion/cjnmckjndlpiamhfimnnjmnckgghkjbl
+   * firefox: https://addons.mozilla.org/en-US/firefox/addon/competitive-companion/
+5. Open the folder in container by selecting the "Open in container" option from the bottom-left icon.
 
 Once you open this folder in a container, VSCode will start building a container.
 
