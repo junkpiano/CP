@@ -31,6 +31,6 @@ RUN curl -s -S -LO https://github.com/izlyforever/cf-tool/releases/download/v1.0
 RUN unzip cf_v1.0.5_linux_64.zip
 RUN mv cf /usr/local/bin/
 
-RUN curl -s -S https://gist.githubusercontent.com/junkpiano/49f3f34e1db1f6a1a5ca11b10c0945a6/raw/bbde76a69c315f528dd5cdab95396224fb85bffb/cf.cpp >> /root/.cftools/template/template.cpp
+RUN curl -s -S https://gist.githubusercontent.com/junkpiano/49f3f34e1db1f6a1a5ca11b10c0945a6/raw/3cd24934db15242a76b4659abdfb9d52cc126043/cf.cpp >> /root/.cftools/template/template.cpp
 
 CMD ["/bin/bash"]
