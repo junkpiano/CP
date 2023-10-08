@@ -2,6 +2,7 @@
 
 ## Installation
 
+0. Install Rancher Desktop.
 1. Install VSCode.
 2. Install Competitive Programming Helper(vscode extension) https://agrawal-d.com/cph/
 3. If you haven't already, install the "dev containers" extension.
