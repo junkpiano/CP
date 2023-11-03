@@ -13,6 +13,11 @@
 
 Once you open this folder in a container, VSCode will start building a container.
 
+## Windows
+
+Install WSL and connect to WSL distro from VSCode.
+Run `setup.sh` script.
+
 ## TODO
 
 Here are some things we are working on:
