@@ -12,6 +12,21 @@ typedef pair<int,int> pii;
 #define TESTCASE_INPUT
 
 void solve() {
+    int n;
+    cin >> n;
+    vector<int> a(n);
+    rep(0,i,n) cin >> a[i];
+
+    rep(0, i, n - 1) {
+        if(i & (i + 1)) {
+            if(a[i + 1] - a[i] < 0) {
+                println("NO");
+                return;
+            }
+        }
+    }
+
+    println("YES");
 }
 
 int main(){
@@ -24,5 +39,4 @@ int main(){
 #else
     solve();
 #endif
-    return 0;
 }

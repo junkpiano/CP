@@ -1,28 +1,27 @@
 # CP Contest Prep
 
-## Installation
+## Common Installation
 
-0. Install Rancher Desktop.
-1. Install VSCode.
+1. Install [VSCode](https://code.visualstudio.com/).
 2. Install Competitive Programming Helper(vscode extension) https://agrawal-d.com/cph/
-3. If you haven't already, install the "dev containers" extension.
 4. Install Compatitive Companion(Browser Extension)
    * chrome: https://chrome.google.com/webstore/detail/competitive-companion/cjnmckjndlpiamhfimnnjmnckgghkjbl
    * firefox: https://addons.mozilla.org/en-US/firefox/addon/competitive-companion/
-5. Open the folder in container by selecting the "Open in container" option from the bottom-left icon.
+
+## Windows & Linux
+
+1. (Windows Only) Install WSL and connect to WSL distro from VSCode.
+2. (Windows Only) Open the folder in container by selecting the "Open in WSL distro" option from the bottom-left icon.
+3. Run `sh setup.sh` script in VSCode terminal
+
+Now ready to go.
+
+## MacOS
+
+1. Install [Rancher Desktop](https://rancherdesktop.io/).
+2. Install "dev containers" extension.
+3. Open the folder in container by selecting the "Open in container" option from the bottom-left icon.
 
 Once you open this folder in a container, VSCode will start building a container.
 
-## Windows
-
-Install WSL and connect to WSL distro from VSCode.
-Run `setup.sh` script.
-
-## TODO
-
-Here are some things we are working on:
-
-- Accommodating custom CPP files or using our own CPP templates. However, the default one provided is quite efficient.
-- Fixing any typos.
-- Translating Japanese documentation into English.
 

@@ -9,9 +9,26 @@ typedef pair<int,int> pii;
 #define rep(s,i,n) for(int i=s;i<n;i++)
 #define repstr(c,s) for(auto c: s)
 
-#define TESTCASE_INPUT
+// #define TESTCASE_INPUT
 
 void solve() {
+	int n;
+	cin >> n;
+
+	int b = -1;
+	int a = 0;
+	while(n) {
+		a = n % 10;
+		if(a > b) {
+			b = a;
+		} else {
+			println("No");
+			return;
+		}
+		n /= 10;
+	}
+
+	println("Yes");
 }
 
 int main(){
