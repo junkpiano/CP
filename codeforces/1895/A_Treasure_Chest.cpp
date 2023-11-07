@@ -12,6 +12,21 @@ typedef pair<int,int> pii;
 #define TESTCASE_INPUT
 
 void solve() {
+    int x, y, k;
+    cin>>x>>y>>k;
+
+    int ans = 0;
+    if(abs(x - y) <= k) {
+        ans = max(x, y);
+    } else {
+        if(x >= y) {
+            ans = x;
+        } else {
+            ans += y + y - x - k;
+        }
+    }
+
+    println(ans);
 }
 
 int main(){
