@@ -1,5 +1,7 @@
 # CP Contest Prep
 
+This repo is meant to make CP contest easy to do.
+
 ## Common Installation
 
 1. Install [VSCode](https://code.visualstudio.com/).
