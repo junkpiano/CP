@@ -9,20 +9,22 @@ typedef pair<int,int> pii;
 #define rep(s,i,n) for(int i=s;i<n;i++)
 #define repstr(c,s) for(auto c: s)
 
-#define TESTCASE_INPUT
-
 void solve() {
 }
 
 int main(){
     voila
 
-#ifdef TESTCASE_INPUT
-    int tt=1;
-    cin>>tt;
-    while(tt--) solve();
-#else
-    solve();
+#ifndef ONLINE_JUDGE
+    // For getting input from input.txt file 
+    // freopen("input.txt", "r", stdin);
+    // Printing the Output to output.txt file 
+    // freopen("output.txt", "w", stdout);
 #endif
+
+    int tt=1;
+    // cin>>tt;
+    while(tt--) solve();
+
     return 0;
 }
